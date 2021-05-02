@@ -3,8 +3,8 @@ import project1 from '../../../image/project10.png'
 import project2 from '../../../image/project20.png'
 import project3 from '../../../image/project30.png'
 import project4 from '../../../image/project40.png'
-import project5 from '../../../image/project40.png'
-import project6 from '../../../image/project40.png'
+import project5 from '../../../image/project5.png'
+import project6 from '../../../image/project6.png'
 import Footer from '../Footer/Footer';
 import ProjectInfo from './ProjectData/ProjectInfo';
 import './Prooject.css'
