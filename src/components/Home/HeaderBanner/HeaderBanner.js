@@ -25,15 +25,15 @@ const HeaderBanner = () => {
                             </Typed>
                         </h5>
                         <div className="pt-2 icon">
-                            <a href="https://www.facebook.com/parvezhasanrubel42/" target='_blank'> <FontAwesomeIcon className='mr-3 h3' icon={faFacebook} /> </a>
-                            <a href="https://www.linkedin.com/in/parvezhasanrubel/" target='_blank'><FontAwesomeIcon className='mr-3 h3' icon={faLinkedin} /></a>
-                            <a href="https://github.com/phrubel" target='_blank'><FontAwesomeIcon className='mr-3 h3' icon={faGithub} /></a>
-                            <a href="https://medium.com/@phrubel42" target='_blank'><FontAwesomeIcon className='h3' icon={faMedium} /></a>
+                            <a href="https://www.facebook.com/parvezhasanrubel42/" target='_blank' rel="noreferrer"> <FontAwesomeIcon className='mr-3 h3' icon={faFacebook} /> </a>
+                            <a href="https://www.linkedin.com/in/parvezhasanrubel/" target='_blank' rel="noreferrer"><FontAwesomeIcon className='mr-3 h3' icon={faLinkedin} /></a>
+                            <a href="https://github.com/phrubel" target='_blank' rel="noreferrer"><FontAwesomeIcon className='mr-3 h3' icon={faGithub} /></a>
+                            <a href="https://medium.com/@phrubel42" target='_blank' rel="noreferrer"><FontAwesomeIcon className='h3' icon={faMedium} /></a>
 
                         </div>
 
                         <div>
-                            <a class="btn btn-success mt-3" href="https://drive.google.com/uc?export=download&id=1lXcKZSC3WNBqShs_67VcqaXY7q_Fe7OS" role="button" target="_blank">Download Resume</a>
+                            <a class="btn btn-success mt-3" href="https://drive.google.com/uc?export=download&id=1lXcKZSC3WNBqShs_67VcqaXY7q_Fe7OS" role="button" target="_blank" rel="noreferrer" >Download Resume</a>
                         </div>
 
                     </div>

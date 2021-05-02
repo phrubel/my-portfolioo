@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 
 const GetInTouch = () => {
-  const { register, handleSubmit, formState: { errors }, } = useForm();
+  const { register,formState: { errors }, } = useForm();
 
 
   function sendEmail(e) {
