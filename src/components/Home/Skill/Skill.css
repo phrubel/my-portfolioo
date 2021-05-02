@@ -1,0 +1,18 @@
+.skills{
+  margin-top: 0;
+}
+  .technology {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .technology span {
+    background: #5a6372;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+    color: white;
+  }

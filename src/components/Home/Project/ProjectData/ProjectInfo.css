@@ -1,0 +1,21 @@
+
+.card{
+    transition: 0.5s
+}
+.card:hover{
+    background: #0cff65;
+    border: 2px solid #0cff65;
+    transform: translateY(-20px);
+}
+.card-body{
+    background:dimgray;
+}
+.siteLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.siteLink a{
+    text-decoration: none;
+    color: black;
+}

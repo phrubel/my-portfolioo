@@ -1,0 +1,15 @@
+
+.nav{
+    background:#111a2b;
+}
+
+
+.menu-bar{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 600; */
+    margin-right: 35px;
+    text-decoration: none;
+    margin-top: 4px;
+}
+

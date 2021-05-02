@@ -1,0 +1,31 @@
+.banner {
+  padding-bottom: 150px;
+  background: #111a2b;
+}
+.banner-text {
+  padding-top: 70px;
+}
+
+.typed {
+  color: deeppink;
+}
+
+h1 {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #00cf5d;
+}
+.banner-text img {
+  height: 180px;
+}
+
+.icon {
+  margin-right: 10px;
+}
