@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import project1 from '../../../image/project10.png'
 import project2 from '../../../image/project20.png'
 import project3 from '../../../image/project30.png'
@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 import ProjectInfo from './ProjectData/ProjectInfo';
 import './Prooject.css'
 import MouseParticles from 'react-mouse-particles'
-
+import AOS from 'aos';
 
 
 const projectData = [
@@ -58,22 +58,25 @@ const projectData = [
 ]
 
 const Project = () => {
+    useEffect(() => {
+        AOS.init({ duration: 3000 })
+    }, [])
     return (
         <>
-        <section style={{background:"#111a2b"}}>
-            <div className="container pb-5 pt-5">
-                
-                    <h2 className='title'>Recent Projects</h2>
-                
-                <div className="row py-5">
-                    {
-                        projectData.map(project => <ProjectInfo project={project}></ProjectInfo>)
-                    }
+            <section style={{ background: "#111a2b" }}>
+                <div className="container pb-5 pt-5">
+
+                    <button className='title'>Recent Projects</button>
+
+                    <div data-aos="fade-up-right" className="row py-5">
+                        {
+                            projectData.map(project => <ProjectInfo project={project}></ProjectInfo>)
+                        }
+                    </div>
                 </div>
-            </div>
-            <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
-        </section>
-        <Footer></Footer>
+                <MouseParticles g={1} color="random" cull="col,image-wrapper" />
+            </section>
+            <Footer></Footer>
         </>
     );
 };

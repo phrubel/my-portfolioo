@@ -1,23 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css'
 import mypic from '../../../image/mypic.JPG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 import Footer from '../Footer/Footer';
 import MouseParticles from 'react-mouse-particles'
-
+import AOS from 'aos';
 
 const About = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 3000 })
+    }, [])
+    
     return (
         <>
 
             <section className='pb-0 pt-5 pb-md-5 background'>
                 <div className='container mb-5'>
                     <div className="row mb-5">
-                        <div className="col-md-5 mb-4 m-md-0 aboutImg">
+                        <div data-aos="fade-up-right" className="col-md-5 mb-4 m-md-0 aboutImg">
                             <img className='img-fluid' src={mypic} alt="" />
                         </div>
-                        <div className="col-md-7 align-self-center">
+                        <div data-aos="fade-up-left" className="col-md-7 align-self-center">
                             <h3>Hello! I'm <span>Parvez Hasan Rubel</span> </h3>
                             <p> A passionate web developer.I really like to play with good judgment and obsessed with working with new technologies.I've finished the net improvement path from programming hero. my robust point is, I am not fearful of doing new staffs, and therefore a maximum of the time I'm able to research versatile capabilities. and additionally, I am right at teamwork. and ultimate but no longer the least, I enjoy my paintings to the fullest.
                           </p>
@@ -33,7 +38,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
+                <MouseParticles g={1} color="random" cull="col,image-wrapper" />
             </section>
             <Footer></Footer>
         </>

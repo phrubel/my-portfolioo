@@ -9,23 +9,23 @@ import {
 
 const ContactInfo = () => {
     return (
-        <section className='text-primary'>
-            <h3 className="">Parvez Hasan Rubel</h3>
+        <section className='container'>
+            <h3 className="text-dark">Parvez Hasan Rubel</h3>
             <br />
             <div className="d-md-flex justify-content-between align-items-center pr-3 pb-2">
                 <div>
-                    <p className="mb-2">
+                    <p className="mb-2 text-dark">
                         <FontAwesomeIcon icon={faMapMarkedAlt} className="mr-2" />
              Horipur, Kalir Bazar
             </p>
-                    <p className="mb-2">Fulchhari, Gaibandha</p>
+                    <p className="mb-2 text-dark">Fulchhari, Gaibandha</p>
                 </div>
                 <div>
-                    <p className="mb-0">
+                    <p className="mb-0 text-dark">
                         <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
               01947-616542 , 01917-505474
             </p>
-                    <p className="mb-0">
+                    <p className="mb-0 text-dark">
                         <FontAwesomeIcon icon={faEnvelopeOpen} className="mr-2" />
               phrubel42@gmail.com
             </p>

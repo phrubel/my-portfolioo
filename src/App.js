@@ -1,6 +1,6 @@
 
 import './App.css';
-
+import 'aos/dist/aos.css';
 import {
   BrowserRouter as Router,
   Switch,

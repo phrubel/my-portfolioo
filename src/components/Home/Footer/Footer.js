@@ -4,6 +4,7 @@ import './Footer.css';
 const Footer = () => {
 
     return (
+    <section>
         <footer className="footer">
             <div className="footer-left col-md-4 col-sm-6">
              
@@ -14,6 +15,7 @@ const Footer = () => {
                 <small className='text-white'>Developed With Pure ♥ Love By <a href="https://web.facebook.com/parvezhasanrubel42/"> Parvez Hasan Rubel.</a></small>
             </div>
         </footer>
+    </section>
 
     );
 };

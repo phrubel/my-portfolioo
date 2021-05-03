@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 import MouseParticles from 'react-mouse-particles'
 import Particle from './Particle';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 const HeaderBanner = () => {
     return (
@@ -33,7 +34,7 @@ const HeaderBanner = () => {
                         </div>
 
                         <div>
-                            <a class="btn btn-success mt-3" href="https://drive.google.com/uc?export=download&id=1lXcKZSC3WNBqShs_67VcqaXY7q_Fe7OS" role="button" target="_blank" rel="noreferrer" >Download Resume</a>
+                            <a class="btn btn-success mt-3" href="https://drive.google.com/uc?export=download&id=1lXcKZSC3WNBqShs_67VcqaXY7q_Fe7OS" role="button" target="_blank" rel="noreferrer" ><FontAwesomeIcon className='' icon={faFileDownload} /> Download Resume</a>
                         </div>
 
                     </div>
